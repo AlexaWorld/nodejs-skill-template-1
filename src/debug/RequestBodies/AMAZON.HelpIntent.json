@@ -1,0 +1,22 @@
+{
+  "session": {
+    "sessionId": "SessionId.Session1",
+    "application": {
+      "applicationId": "set the Debugger AppId property"
+    },
+    "user": {
+      "userId": "LocalDeveloper"
+    },
+    "new": true
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "LocalDeveloper.TestSession1",
+    "timestamp": "2018-01-01T01:07:55Z",
+    "intent": {
+      "name": "AMAZON.HelpIntent"
+    },
+    "locale": "de-DE"
+  },
+  "version": "1.0"
+}

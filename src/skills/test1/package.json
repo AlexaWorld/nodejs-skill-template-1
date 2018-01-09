@@ -1,0 +1,14 @@
+{
+  "name": "test1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Peter Ullrich",
+  "license": "MIT",
+  "alexa": {
+    "applicationId": "amzn1.ask.skill.8969ae39-a57c-4c79-b2e2-f6c96fd5bb95"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "alexaworld-nodeskill",
+  "version": "1.0.0",
+  "description": "Node backend development for alexa skills.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "alexaworld-nodeskills": "^1.0.6",
+    "alexaworld-responsebuilder": "^1.0.3",
+    "alexaworld-skilldebugger": "^1.0.7",
+    "alexaworld-skillserver": "^1.0.4",
+    "amazon-date-parser": "^0.1.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexaWorld/skill-template-nodejs-1.git"
+  },
+  "keywords": [
+    "nodejs",
+    "node",
+    "alexa",
+    "alexa",
+    "skills",
+    "skill"
+  ],
+  "author": "Peter Ullrich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexaWorld/skill-template-nodejs-1/issues"
+  },
+  "homepage": "https://github.com/AlexaWorld/skill-template-nodejs-1#readme"
+}

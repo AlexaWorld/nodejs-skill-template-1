@@ -1,0 +1,8 @@
+// Platzieren Sie Ihre Einstellungen in dieser Datei, um die Standardeinstellungen zu überschreiben.
+{
+    "editor.tabSize": 2,
+		"editor.insertSpaces": false,
+		"team.showWelcomeMessage": false,
+		"editor.fontSize": 16,
+		"explorer.confirmDelete": false
+	}
