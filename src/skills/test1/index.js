@@ -2,22 +2,29 @@
 /* eslint quote-props: ["error", "consistent"]*/
 'use strict';
 
-var Skill = require('alexaworld-nodeskills')
-//var RequestHandler = require('alexaworld-builtinrequesthandler');
-var RequestHandler = require('./BuiltInHandler');
+var Skill = require('alexaworld-nodeskills').NodeSkill;
+var RequestHandler =  require('alexaworld-nodeskills').BuiltInRequestHandler;
+var IntentHandler =  require('alexaworld-nodeskills').BuiltInIntentHandler
 var ResponseBuilder = require('alexaworld-responsebuilder').ResponseBuilder;
 
 var config = require('./config.json');
 
 var skill = new Skill();
-RequestHandler.AddToSkill(skill);
+
+//RequestHandler.AddToSkill(skill);
 skill.AppId = config.AppId;
 skill.Name = 'test1';
+IntentHandler.AddToSkill(skill);
+skill.AddRequestHandler('IntentRequest', RequestHandler.IntentRequest);
+skill.AddRequestHandler('LaunchRequest',RequestHandler.LaunchRequest);
+
+module.exports = skill.export();
 
 /* 
 skill.AddRequestHandler('LaunchRequest', async function (alexaRequest) {
 	//return 'So geht es auch';
 	var rb = new ResponseBuilder(alexaRequest.Context);
+rb.AddSessionAttribute('key','value');
 	var z = alexaRequest.Translate('LaunchRequest');
 	var text = skill.GetRandomText(z);
 	rb
@@ -70,4 +77,3 @@ aw.IntentHandler.ArgumentIntent = function () {
 	this.emit(':responseReady');
 };
 */
-module.exports = skill;

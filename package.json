@@ -7,10 +7,10 @@
     "test": "test"
   },
   "dependencies": {
-    "alexaworld-nodeskills": "^1.0.6",
-    "alexaworld-responsebuilder": "^1.0.3",
+    "alexaworld-nodeskills": "^1.0.20",
+    "alexaworld-responsebuilder": "^1.0.6",
     "alexaworld-skilldebugger": "^1.0.7",
-    "alexaworld-skillserver": "^1.0.4",
+    "alexaworld-skillserver": "^1.0.6",
     "amazon-date-parser": "^0.1.5"
   },
   "devDependencies": {},

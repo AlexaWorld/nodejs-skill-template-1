@@ -6,6 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "alexaworld-nodeskills": "^1.0.20",
+    "alexaworld-responsebuilder": "^1.0.6",
+    "amazon-date-parser": "^0.1.5"
+  },
   "author": "Peter Ullrich",
   "license": "MIT",
   "alexa": {
